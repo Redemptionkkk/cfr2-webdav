@@ -1,11 +1,10 @@
 name = "cfr2-webdav"
 main = "src/index.ts"
-compatibility_date = "2025-01-01"
+compatibility_date = "2025-05-01"
 
 [vars]
-USERNAME = "${{ vars.USERNAME }}"
-PASSWORD = "${{ vars.PASSWORD }}"
-BUCKET_NAME = "${{ vars.BUCKET_NAME }}"
+USERNAME = "_user"
+PASSWORD = "_pass"
 
 [[r2_buckets]]
 binding = "BUCKET"
